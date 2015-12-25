@@ -2,21 +2,21 @@
 
 a:link {
 
-  color:#fff;
+  color:#000;
   text-decoration:none;
 
 }
 
 a:visited {
 
-  color:#fff;
+  color:#000;
   text-decoration:none;
 
 }
 
 a:hover {
 
-  color:#fff;
+  color:#000;
   text-decoration:underline;
 
 }
@@ -52,19 +52,30 @@ body,html {
 
 }
 
-#mailImg {
+div#mail span#a {
 
-  width: 157px;
-  height: 27px;
-  background: url('images/sofia.png');
+  display: inline;
 
 }
 
-#mailImg:hover {
+div#mail:hover span#a {
 
-  width: 200px;
-  height: 27px;
-  background: url('images/sofia-over.png');
+  display: none;
+
+}
+
+div#mail span#b {
+
+  display: none;
+
+}
+
+div#mail:hover span#b {
+
+  display: inline;
+
+}
+
 
 }
 
