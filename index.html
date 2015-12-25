@@ -9,37 +9,40 @@
 
     <script type="text/javascript">
 
-    function preloader() {
-      if (document.images) {
-        <?php
-          //Image Preloader - PHP adds all files in folder
-          $i=1;
-          while(file_exists($i . '.jpg')) {
-            echo 'var img' . $i . ' = new Image();' . "\r\n" ;
-            echo 'img' . $i . '.src = "' . $i . '.jpg";' . "\r\n";
-            $i++;
-          }
-        ?>
+      function preloader() {
+        if (document.images) {
+          <?php
+            //Image Preloader - PHP adds all files in folder
+            $i=1;
+            while(file_exists($i . '.jpg')) {
+              echo 'var img' . $i . ' = new Image();' . "\r\n" ;
+              echo 'img' . $i . '.src = "' . $i . '.jpg";' . "\r\n";
+              $i++;
+            }
+          ?>
+        }
       }
-    }
 
     </script>
+
   </head>
 
   <body bgcolor="#ffffff">
 
-    <div class="bg"></div>
-
     <div id="menu">
       <a href="mailto:sofia.deguzman@gmail.com"><div id="mailImg"></div></a>
       <div id="submenu">
-        <a href="photographs/index.html?page=1"><img src="images/photographs.png" border="0" alt="photographs"></a>
+        <a href="photographs/index.html?page=1">projects</a>
         <br>
-        <a href="http://sofia-de-guzman.tumblr.com/"><img src="images/journal.png" border="0" alt="journal"></a>
+        <a href="http://sofia-de-guzman.tumblr.com/">journal</a>
         <br>
-        <a href="info.html"><img src="images/info.png" border="0" alt="info"></a>
+        <a href="http://sofia-de-guzman.tumblr.com/">for sale</a>
+        <br>
+        <a href="info.html">info</a>
         <br>
       </div>
     </div>
+
   </body>
+
 </html>
