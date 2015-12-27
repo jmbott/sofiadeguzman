@@ -17,7 +17,6 @@ a:visited {
 a:hover {
 
   color:#000;
-  text-decoration:underline;
 
 }
 
@@ -35,19 +34,34 @@ body,html {
 
 }
 
-#menu {
+#home {
 
-  position: absolute;
-  top: 40px;
-  right: 50px;
-  width: 170px;
-  text-align: left;
+  position: fixed;
+  top: calc(50% - 277px);
+  left: calc(50% - 300px);
 
 }
 
-#submenu img:hover {
+#menu {
 
-  opacity: 0.8;
+  position: fixed;
+  top: 30%;
+  left: calc(50% + 125px);
+  text-align: left;
+  min-width: 150px;
+
+}
+
+.gap {
+
+    border-bottom: solid #fff;
+    border-bottom-width: 1.5px;
+
+}
+
+#submenu a:hover {
+
+  opacity: 0.7;
   filter:alpha(opacity=80);
 
 }
@@ -73,49 +87,6 @@ div#mail span#b {
 div#mail:hover span#b {
 
   display: inline;
-
-}
-
-
-}
-
-.bg {
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-image: url('http://sofiadeguzman.com/images/bg.jpg');
-  background-repeat: repeat;
-  background-position: right bottom;
-
-}
-
-@media screen and (min-width: 1024px) {
-  /* Specific to this particular image */
-
-  .bg {
-    background-size: 100%;
-  }
-
-}
-
-@media screen and (max-width: 1024px) and (min-width: 568px) {
-  /* Specific to this particular image */
-
-  .bg {
-    background-size: 175%;
-  }
-
-}
-
-@media screen and (max-width: 568px) {
-  /* Specific to this particular image */
-
-  .bg {
-    background-size: 225%;
-  }
 
 }
 

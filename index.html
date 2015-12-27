@@ -12,7 +12,6 @@
       function preloader() {
         if (document.images) {
           <?php
-            //Image Preloader - PHP adds all files in folder
             $i=1;
             while(file_exists($i . '.jpg')) {
               echo 'var img' . $i . ' = new Image();' . "\r\n" ;
@@ -25,19 +24,57 @@
 
     </script>
 
+    <script type="text/javascript">
+      <!--
+      var image1=new Image()
+      image1.src="photographs/1.jpg"
+      var image2=new Image()
+      image2.src="photographs/2.jpg"
+      var image3=new Image()
+      image3.src="photographs/3.jpg"
+      var image4=new Image()
+      image4.src="photographs/4.jpg"
+      var image5=new Image()
+      image5.src="photographs/5.jpg"
+      var image6=new Image()
+      image6.src="photographs/6.jpg"
+      var image7=new Image()
+      image7.src="photographs/7.jpg"
+      var image8=new Image()
+      image1.src="photographs/8.jpg"
+      var image9=new Image()
+      image2.src="photographs/9.jpg"
+      var image10=new Image()
+      image3.src="photographs/10.jpg"
+      var image11=new Image()
+      image4.src="photographs/11.jpg"
+      var image12=new Image()
+      image5.src="photographs/12.jpg"
+      var image13=new Image()
+      image6.src="photographs/13.jpg"
+      var image14=new Image()
+      image7.src="photographs/14.jpg"
+      var image15=new Image()
+      image6.src="photographs/15.jpg"
+      var image16=new Image()
+      image7.src="photographs/16.jpg"
+      //-->
+    </script>
+
   </head>
 
   <body bgcolor="#ffffff">
 
-    <div><img src="home.jpg" border="0" alt="info"></div>
+    <div id="home"><img src="home.jpg" border="0" alt="info"></div>
 
     <div id="menu">
       <div id="mail">
         <a href="mailto:sofia.deguzman@gmail.com">
           <span id="a">Sofia de Guzman</span>
-          <span id="b">sofia.deguzman@gmail.com</span>
+          <span id="b">Sofia.deGuzman@gmail.com</span>
         </a>
       </div>
+      <div class="gap"></div>
       <div id="submenu">
         <a href="photographs/index.html?page=1">projects</a>
         <br>
