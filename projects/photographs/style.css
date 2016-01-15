@@ -44,6 +44,24 @@ body,html {
 
 }
 
+#arrow {
+
+  font-size: 25px;
+  position: fixed;
+  top: 10px;
+  left: 15px;
+  width: 100%;
+  text-align: left;
+
+}
+
+#arrow img:hover {
+
+  opacity: 0.8;
+  filter:alpha(opacity=80);
+
+}
+
 #menu img:hover {
 
   opacity: 0.8;
