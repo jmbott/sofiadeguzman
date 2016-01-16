@@ -20,6 +20,12 @@ a:hover {
 
 }
 
+a {
+
+    outline: none;
+
+}
+
 img {
 
   border: 0px;
