@@ -129,11 +129,11 @@ ul {
 #arrow {
 
   font-size: 25px;
-  float: left;
-  color: #000;
+  position: fixed;
+  top: 10px;
+  left: 15px;
   width: 100%;
-  padding-top: 10px;
-  padding-left: 15px;
+  text-align: left;
 
 }
 
