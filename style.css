@@ -36,10 +36,6 @@ ul {
   padding:0px;
 }
 
-li {
-  padding-top: 50px;
-}
-
 #arrow {
   font-size: 25px;
   position: fixed;
@@ -61,6 +57,10 @@ li {
   padding-top: 25px;
   padding-left: calc(50% - 250px);
   padding-bottom: 75px;
+}
+
+#journal:li {
+  padding-top: 50px;
 }
 
 #home {
