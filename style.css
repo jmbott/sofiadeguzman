@@ -64,7 +64,7 @@ ul {
 }
 
 #home {
-  position: fixed;
+  position: absolute;
   top: calc(50% - 250px);
   left: calc(50% - 434.775px);
 }
@@ -80,13 +80,13 @@ ul {
  * 930.45px total > 465.225px is middle
  * < 600px (50% - 434.775px) > < 10px > < 320.45 (50% + 144.775px)>
  *
- * 338.85px tall menu > 169.425px is half
- * 50px for heavier bottom
+ * 399.75px tall image > half is 199.875px
+ * ~50px for heavier bottom
  */
 
 #menu {
-  position: fixed;
-  top: calc(50% - 219.425px);
+  position: absolute;
+  top: calc(50% - 250px);
   left: calc(50% + 175.225px);
   text-align: left;
 }
