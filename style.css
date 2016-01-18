@@ -1,133 +1,110 @@
 /* style for sofiadeguzman.com page */
 
 a:link {
-
   color:#000;
   text-decoration:none;
-
 }
 
 a:visited {
-
   color:#000;
   text-decoration:none;
-
 }
 
 a:hover {
-
   color:#000;
-
 }
 
 a {
-
     outline: none;
+}
 
+ul {
+  line-height: 1.2em;
+  list-style-type: none;
+  text-indent:10px;
+  margin:0px;
+  padding:0px;
 }
 
 img {
-
   border: 0px;
-
 }
 
 body,html {
-
   margin:0;
   padding:0;
   color: #fff;
   font: 14px Helvetica Neue, 'Open Sans', helvetica, sans-serif;
-
 }
 
 #home {
-
   position: fixed;
-  top: calc(50% - 277px);
-  left: calc(50% - 300px);
-
+  top: calc(50% - 250px);
+  left: calc(50% - 434.775px);
 }
+
+#home img {
+  width: 600px;
+}
+
+/*
+ * 320.45px wide at widest point of submenu
+ * 600px wide image
+ * 10px gap image to menu
+ * 930.45px total > 465.225px is middle
+ * < 600px (50% - 434.775px) > < 10px > < 320.45 (50% + 144.775px)>
+ *
+ * 338.85px tall menu > 169.425px is half
+ * 50px for heavier bottom
+ */
 
 #menu {
-
   position: fixed;
-  top: 30%;
-  left: calc(50% + 125px);
+  top: calc(50% - 219.425px);
+  left: calc(50% + 175.225px);
   text-align: left;
-  min-width: 150px;
-
-}
-
-.gap {
-
-    border-bottom: solid #fff;
-    border-bottom-width: 1.5px;
-
-}
-
-.gap2 {
-
-    border-bottom: solid #fff;
-    border-bottom-width: 7px;
-
-}
-
-.small {
-
-  font-size: 12px;
-
-}
-
-#submenu a:hover {
-
-  opacity: 0.7;
-  filter:alpha(opacity=80);
-
 }
 
 div#mail span#a {
-
   display: inline;
-
 }
 
 div#mail:hover span#a {
-
   display: none;
-
 }
 
 div#mail span#b {
-
   display: none;
-
 }
 
 div#mail:hover span#b {
-
   display: inline;
-
 }
 
+#submenu a:hover {
+  opacity: 0.7;
+  filter:alpha(opacity=80);
+}
 
 #text {
-
   font: 11px/16px Helvetica Neue, 'Open Sans', helvetica, sans-serif;
   text-align: left;
   width: 300px;
   opacity: 0.7;
   color: #000;
   margin-left: 7px;
-
 }
 
-ul {
+.gap {
+    border-bottom: solid #fff;
+    border-bottom-width: 1.5px;
+}
 
-  line-height: 1.2em;
-  list-style-type: none;
-  text-indent:10px;
-  margin:0px;
-  padding:0px;
+.gap2 {
+    border-bottom: solid #fff;
+    border-bottom-width: 7px;
+}
 
+.small {
+  font-size: 12px;
 }

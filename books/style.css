@@ -137,6 +137,13 @@ ul {
 
 }
 
+#arrow a:hover {
+
+  opacity: 0.7;
+  filter:alpha(opacity=80);
+
+}
+
 #journal {
 
   font-size: 11px;
