@@ -121,6 +121,14 @@ div#mail:hover span#b {
   margin-left: 7px;
 }
 
+#note {
+  position: absolute;
+  top: 650px;
+  left: 50px;
+  width: 800px;
+  color: #444;
+}
+
 .gap {
     border-bottom: solid #fff;
     border-bottom-width: 1.5px;
