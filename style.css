@@ -123,10 +123,11 @@ div#mail:hover span#b {
 
 #note {
   position: absolute;
-  top: 650px;
-  left: 50px;
+  top: 625px;
+  left: 75px;
   width: 800px;
   color: #444;
+  line-height: 20px;
 }
 
 .gap {
