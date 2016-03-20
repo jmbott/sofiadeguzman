@@ -22,6 +22,7 @@ body,html {
   margin:0;
   padding:0;
   font: 14px Helvetica Neue, 'Open Sans', helvetica, sans-serif;
+  /*min-height: 750px;*/
 }
 
 img {
@@ -60,7 +61,7 @@ ul {
 }
 
 #journal li {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 #home {
@@ -89,6 +90,10 @@ ul {
   top: calc(50% - 250px);
   left: calc(50% + 175.225px);
   text-align: left;
+}
+
+#mail {
+  font: 16px Helvetica Neue, 'Open Sans', helvetica, sans-serif;
 }
 
 div#mail span#a {
@@ -121,18 +126,16 @@ div#mail:hover span#b {
   margin-left: 7px;
 }
 
-#note {
-  position: absolute;
-  top: 625px;
-  left: 75px;
+.note {
+  margin-left:75px;
   width: 800px;
   color: #444;
-  line-height: 20px;
+  font-size: 14px;
 }
 
 .gap {
     border-bottom: solid #fff;
-    border-bottom-width: 1.5px;
+    border-bottom-width: 4px;
 }
 
 .gap2 {
@@ -141,7 +144,7 @@ div#mail:hover span#b {
 }
 
 .small {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .title {
