@@ -64,6 +64,11 @@ ul {
   padding-top: 100px;
 }
 
+#journal img {
+  width: 500px;
+  border: 0px;
+}
+
 #home {
   position: absolute;
   top: calc(50% - 250px);
