@@ -25,3 +25,22 @@
 <p class="p3"><span class="s2"><a href="http://sofia-de-guzman.tumblr.com/post/17221456304">3 years ago</a></span><span class="s3">  <a href="http://sofia-de-guzman.tumblr.com/post/17221456304"><span class="s4">notes (2)</span></a></span></p>
 </body>
 </html>
+
+
+<script type="text/javascript">
+
+function preloader() {
+  if (document.images) {
+    <?php
+    //Image Preloader - PHP adds all files in folder
+    $i=1;
+    while(file_exists($i . '.jpg')) {
+      echo 'var img' . $i . ' = new Image();' . "\r\n" ;
+      echo 'img' . $i . '.src = "' . $i . '.jpg";' . "\r\n";
+      $i++;
+      }
+    ?>
+    }
+  }
+
+</script>
