@@ -7,23 +7,6 @@
     <title>Sofia de Guzman</title>
     <link href="../../style.css" rel="stylesheet" type="text/css">
 
-    <script type="text/javascript">
-
-    function preloader() {
-     	if (document.images) {
-        <?php
-        //Image Preloader - PHP adds all files in folder
-        $i=1;
-        while(file_exists($i . '.jpg')) {
-          echo 'var img' . $i . ' = new Image();' . "\r\n" ;
-          echo 'img' . $i . '.src = "' . $i . '.jpg";' . "\r\n";
-          $i++;
-          }
-        ?>
-      	}
-      }
-
-    </script>
   </head>
 
   <body bgcolor="#ffffff">
@@ -36,14 +19,12 @@
       <tbody>
 
         <tr align="center" valign="middle">
-          <td align="center" valign="bottom"><img src="images/1_BoatEtching_079_web.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px; width:800px;"></td>
-          <td align="center" valign="bottom"><img src="images/2_BoatEtching_077_web.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px; width:800px;"></td>
-          <td align="center" valign="bottom"><img src="images/3_BoatEtching_083_web.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px; width:800px;"></td>
+          <td align="center" valign="bottom"><img src="images/1_BoatEtching_079_web.jpg" alt="" style="margin-left:75px; margin-right: 75px; width:800px;"></td>
+          <td align="center" valign="bottom"><img src="images/2_BoatEtching_077_web.jpg" alt="" style="margin-left:75px; margin-right: 75px; width:800px;"></td>
+          <td align="center" valign="bottom"><img src="images/3_BoatEtching_083_web.jpg" alt="" style="margin-left:75px; margin-right: 75px; width:800px;"></td>
         </tr>
 
-        <tr></tr>
-
-        <tr align="left" valign="middle">
+        <tr align="left" valign="middle" style="height:5%;">
           <td><a class="note">FAMILY PORTRAIT</a></td>
         </tr>
 
