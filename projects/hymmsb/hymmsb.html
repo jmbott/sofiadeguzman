@@ -7,23 +7,6 @@
     <title>Sofia de Guzman</title>
     <link href="../../style.css" rel="stylesheet" type="text/css">
 
-    <script type="text/javascript">
-
-    function preloader() {
-     	if (document.images) {
-        <?php
-        //Image Preloader - PHP adds all files in folder
-        $i=1;
-        while(file_exists($i . '.jpg')) {
-          echo 'var img' . $i . ' = new Image();' . "\r\n" ;
-          echo 'img' . $i . '.src = "' . $i . '.jpg";' . "\r\n";
-          $i++;
-          }
-        ?>
-      	}
-      }
-
-    </script>
   </head>
 
   <body bgcolor="#ffffff">
@@ -34,34 +17,34 @@
 
     <table align="center" style="width:100%;height:100%;" border="0">
       <tbody>
-        <tr align="center" valign="middle">
+        <tr>
 
-          <td align="center" valign="middle"><img src="images/1.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/2.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/3.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/4.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/5.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/6.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <!--<td align="center" valign="middle"><img src="images/7.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>-->
-          <td align="center" valign="middle"><img src="images/8.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/9.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/10.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/11.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/12.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/13.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/14.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/15.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/16.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/17.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/18.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/19.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/20.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <!--<td align="center" valign="middle"><img src="images/21.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>-->
-          <td align="center" valign="middle"><img src="images/22.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <!--<td align="center" valign="middle"><img src="images/23.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>-->
-          <td align="center" valign="middle"><img src="images/24.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/25.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 75px;"></td>
-          <td align="center" valign="middle"><img src="images/26.jpg" onload="preloader();" alt="" style="margin-left:75px; margin-right: 275px;"></td>
+          <td align="center" valign="middle"><img src="images/1.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/2.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/3.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/4.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/5.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/6.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <!--<td align="center" valign="middle"><img src="images/7.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>-->
+          <td align="center" valign="middle"><img src="images/8.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/9.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/10.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/11.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/12.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/13.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/14.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/15.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/16.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/17.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/18.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/19.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/20.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <!--<td align="center" valign="middle"><img src="images/21.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>-->
+          <td align="center" valign="middle"><img src="images/22.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <!--<td align="center" valign="middle"><img src="images/23.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>-->
+          <td align="center" valign="middle"><img src="images/24.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/25.jpg" alt="" style="margin-left:75px; margin-right: 75px;"></td>
+          <td align="center" valign="middle"><img src="images/26.jpg" alt="" style="margin-left:75px; margin-right: 275px;"></td>
 
         </tr>
       </tbody>
