@@ -51,23 +51,23 @@ ul {
   filter:alpha(opacity=80);
 }
 
-#journal {
+/*#journal {
   font-size: 11px;
   float: left;
   color: #000;
   padding-top: 25px;
   padding-left: calc(50% - 250px);
   padding-bottom: 75px;
-}
+}*/
 
-#journal li {
+/*#journal li {
   padding-top: 100px;
 }
 
 #journal img {
   width: 500px;
   border: 0px;
-}
+}*/
 
 #home {
   position: absolute;
