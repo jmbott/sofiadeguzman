@@ -51,50 +51,32 @@ ul {
   filter:alpha(opacity=80);
 }
 
-/*#journal {
-  font-size: 11px;
-  float: left;
-  color: #000;
-  padding-top: 25px;
-  padding-left: calc(50% - 250px);
-  padding-bottom: 75px;
-}*/
-
-/*#journal li {
-  padding-top: 100px;
+#main-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
 }
 
-#journal img {
-  width: 500px;
-  border: 0px;
-}*/
-
 #home {
-  position: absolute;
-  top: calc(50% - 250px);
-  left: calc(50% - 434.775px);
+  position: relative;
+  display: inline-block;
+  float: left;
 }
 
 #home img {
   width: 600px;
 }
 
-/*
- * 320.45px wide at widest point of submenu
- * 600px wide image
- * 10px gap image to menu
- * 930.45px total > 465.225px is middle
- * < 600px (50% - 434.775px) > < 10px > < 320.45 (50% + 144.775px)>
- *
- * 399.75px tall image > half is 199.875px
- * ~50px for heavier bottom
- */
-
 #menu {
-  position: absolute;
-  top: calc(50% - 250px);
-  left: calc(50% + 175.225px);
+  position: relative;
+  display: inline-block;
+  float: left;
   text-align: left;
+  padding-left: 10px;
+  width: 290px;
+  height: 200px;
 }
 
 #mail {
@@ -169,4 +151,30 @@ div#mail:hover span#b {
   height: 10px;
   opacity: 0.7;
   padding-top: 2px;
+}
+
+/* 1300px or larger */
+@media screen and (min-width: 1300px) {
+
+  #main-container {
+    width: 1300px;
+  }
+
+  #home img {
+    width: 1000px;
+  }
+
+}
+
+/* 900px or smaller */
+@media screen and (max-width: 900px) {
+
+  #main-container {
+    width: 95vw;
+  }
+
+  #home img {
+    width: 95vw;
+  }
+
 }
